@@ -174,7 +174,7 @@ var idCuento = 5;
             cuentosAu.push(item);
         });
         guardarPreguntas();
-        var tit = $('input:text[name=ftitulo]').val();
+        var tit = $('input:text[name=fname]').val();
         var des = $('input:text[name=fdescripcion]').val();
         var credi = $('input:text[name=fcredi]').val();
         let cuentoNuevo = new Cuento(tit, des,credi,cuentosIm, cuentosAu, ArrPreg);
